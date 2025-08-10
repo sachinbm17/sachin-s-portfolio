@@ -1,0 +1,75 @@
+.left-sider {
+    width: 25%;
+    height: 100vh;
+    overflow-y: scroll;
+    background: white;
+    margin-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+}
+.profile-style {
+    border-radius: 50%;
+     object-fit:cover;
+      margin-top:30px;  
+      display: flex;
+
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  align-items: center; /* Horizontal center */
+  text-align: center;
+}
+
+.name-title {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.designation {
+   color:darkgrey;
+       margin-top: 12px;
+
+}
+
+.social-media-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 180px;   
+   margin-top: 20px;
+}
+
+.divider {
+    width:200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.dev-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}
+.details-quest {
+    background: gray;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.details-ans{
+    margin-bottom: 10px;
+   text-overflow: clip;
+}
+.resume-button {
+    background-color: gray;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
