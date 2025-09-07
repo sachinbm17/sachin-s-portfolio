@@ -4,6 +4,7 @@ import EducationCard from './educationCard.tsx'
 
 
 const ProfileSection = () => {
+
   return (
     <>
         <ProfileCard />

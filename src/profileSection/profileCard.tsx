@@ -25,7 +25,7 @@ const ProfileCard = () => {
         </p>
       </div>
       <div>
-     <img src={boi} width="100%" height="50%"  />
+     <img src={boi} alt="sachin" width="100%" height="50%"  />
       </div>
     </div>
 
