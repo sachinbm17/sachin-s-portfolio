@@ -11,19 +11,14 @@ import LongProgressBar from "../components/LongProgressBar.tsx";
 
 const ProfileSider = () => {
 
-  const handleDownload = () => {
-  fetch("/resume.pdf")
-    .then((res) => res.blob())
-    .then((blob) => {
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "Sachin-Resume.pdf";
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-    });
+ const handleDownload = () => {
+  const link = document.createElement("a");
+  link.href = "/resume.pdf";
+  link.download = "Sachin_Resume.pdf";
+  link.click();
 };
+
+ 
 
   return (
     <div className="profile-container">
@@ -63,9 +58,10 @@ const ProfileSider = () => {
         <LongProgressBar text="Css/Scss" progress={90} color="#5486e8" />
       </div>
       <hr className="divider" />
-      <a className="resume-button" onClick={handleDownload}  href="/resume.pdf" target="_blank" rel="noopener noreferrer" download="Sachin-Resume.pdf">
+      <a className="resume-button" onClick={handleDownload} >
         Download CV
       </a>
+      
       <hr className="divider" />
 
     </div>
