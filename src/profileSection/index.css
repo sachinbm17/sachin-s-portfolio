@@ -1,7 +1,42 @@
-.profile-card-container { width: 100%; height: 500px; background-color: white; display: flex; flex-direction: row; justify-content: space-between; margin-right: 50px; align-items: center; padding: 25px; }
-.section-1 { width: 100%; margin-top: 50px; }
-.name-title { text-align: center; align-items: center; font-weight: 600; color: black; font-size: 32px; }
-.dev-description { text-align: center; padding: 15px; color: gray; font-size: 20px; font-weight: 500; font-style: italic; }
-.empty-circle { width: 30px; /* same width & height */ height: 30px; border: 4px solid rgb(20, 217, 239); /* circle border */ border-radius: 50%; /* makes it round */ background-color: transparent; /* no fill */ }
-.triangle { width: 0; height: 0; border-left: 18px solid transparent; /* left side invisible */ border-right: 18px solid transparent; /* right side invisible */ border-bottom: 23px solid rgb(204, 255, 0); /* visible bottom forms the triangle */ background-color: transparent; /* no fill */ position: relative; margin-left:530px; margin-right: 7px; top: -25px; }
-.divider { width:200px; margin-top: 30px; margin-bottom: 30px; color: gray; }
+.profile-card-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 50px;
+    align-items: center;
+    padding: 25px;
+    padding-bottom: 50px;
+}
+
+.section-1 {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.name-title {
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    color: black;
+    font-size: 32px;
+}
+
+.dev-description {
+    text-align: center;
+    padding: 15px;
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+
+.divider {
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: gray;
+}

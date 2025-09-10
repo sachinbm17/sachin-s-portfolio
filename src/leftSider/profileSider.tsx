@@ -63,7 +63,7 @@ const ProfileSider = () => {
         <LongProgressBar text="Css/Scss" progress={90} color="#5486e8" />
       </div>
       <hr className="divider" />
-      <a className="resume-button" onClick={handleDownload}  href="public/resume.pdf" download="Sachin-Resume.pdf">
+      <a className="resume-button" onClick={handleDownload}  href="/resume.pdf" target="_blank" rel="noopener noreferrer" download="Sachin-Resume.pdf">
         Download CV
       </a>
       <hr className="divider" />

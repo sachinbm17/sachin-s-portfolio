@@ -10,7 +10,10 @@ width: 100%;
 height: 100vh;
 background-color: grey;
 }
-
+@media only screen and (max-width: 500px) {
+  .App {width: 100%; display: flex;flex-direction: column; height: 100%;}
+ 
+}
 /* ==== GLOBAL SCROLLBAR STYLE ==== */
 
 /* Chrome, Edge, Safari */
