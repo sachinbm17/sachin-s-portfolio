@@ -13,7 +13,7 @@ const ProfileSider = () => {
 
  const handleDownload = () => {
   const link = document.createElement("a");
-  link.href = "/resume.pdf";
+  link.href = "https://sachinbm17.github.io/sachin-s-portfolio/resume.pdf";
   link.download = "Sachin_Resume.pdf";
   link.click();
 };

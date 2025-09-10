@@ -8,7 +8,7 @@ export const devDetails = [{
 },
 { 
   quest:  "Address:" ,
-  ans:"HSR Layout, Banglore",
+  ans:"HSR, Banglore",
 },
 { 
   quest:  "Freelance:" ,

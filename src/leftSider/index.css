@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     text-align: start;
+    padding-bottom: 30px    ;
 }
 .profile-style {
     border-radius: 50%;
